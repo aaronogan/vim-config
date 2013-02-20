@@ -1,1 +1,1 @@
-:colorscheme obsidian
+:colorscheme obsidian-256
