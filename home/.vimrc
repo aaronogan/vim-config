@@ -1,1 +1,1 @@
-:colorscheme obsidian2
+:colorscheme obsidian
