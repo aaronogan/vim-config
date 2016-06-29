@@ -2,6 +2,8 @@
 " https://github.com/junegunn/vim-plug
 call plug#begin('~/.vim/plugged')
 
+Plug 'ctrlpvim/ctrlp.vim'
+
 " Javascript support
 Plug 'pangloss/vim-javascript'
 
