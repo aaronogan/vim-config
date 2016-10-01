@@ -1,6 +1,27 @@
+" disable arrow keys
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+
+" remove highlighting on esc after search
+nnoremap <esc> :noh<return><esc>
+
+" Indentation
+:set tabstop=8 softtabstop=0 expandtab shiftwidth=2 smarttab
+
+" Line numbers
+:set number
+
+" Status bar for filename
+set laststatus=2
+
 " Plugin manager
 " https://github.com/junegunn/vim-plug
 call plug#begin('~/.vim/plugged')
+
+" tmux/vim seamless navication
+Plug 'christoomey/vim-tmux-navigator'
 
 Plug 'ctrlpvim/ctrlp.vim'
 
@@ -24,11 +45,3 @@ let g:ctrlp_custom_ignore={
   \ }
 let g:ctrlp_max_files=0
 
-" Indentation
-:set tabstop=8 softtabstop=0 expandtab shiftwidth=2 smarttab
-
-" Line numbers
-:set number
-
-" Status bar for filename
-set laststatus=2
