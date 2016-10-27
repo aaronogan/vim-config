@@ -10,6 +10,10 @@ set number
 " Status bar for filename
 set laststatus=2
 
+" Easier splits
+nnoremap <Leader>v :vsp<enter>
+nnoremap <Leader>s :sp<enter>
+
 " Plugin manager
 " https://github.com/junegunn/vim-plug
 call plug#begin('~/.vim/plugged')
